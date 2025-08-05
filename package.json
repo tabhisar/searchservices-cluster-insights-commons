@@ -1,0 +1,26 @@
+{
+  "name": "searchservicesclusterinsightscommons",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@elastic/eui": "^106.2.0",
+    "@elastic/datemath": "^5.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
