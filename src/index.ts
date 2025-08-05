@@ -1,3 +1,4 @@
-export * from './MyEuiButton';
-export * from './lazyHybridTable';
+import { MyEuiButton } from './MyEuiButton';
+import { LazyHybridTable } from './LazyHybridTable';
+export { MyEuiButton, LazyHybridTable };
 

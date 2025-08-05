@@ -11,7 +11,7 @@ import {
     EuiSelect
 } from '@elastic/eui';
 import moment from 'moment';
-import { toCapitalized } from '../utils';
+import { toCapitalized } from './utils';
 
 interface LazyHybridTableProps {
     fetchStaticData: (range: { startTime: number; endTime: number }, filters: Record<string, string>) => Promise<any[]>;
